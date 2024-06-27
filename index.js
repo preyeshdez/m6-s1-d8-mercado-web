@@ -30,7 +30,7 @@ app.set("view engine", "handlebars");
 app.set("views", path.resolve(__dirname, "./views"));
 
 app.get("/", (req, res) => {
-	res.render("dashboard", {
+	res.render("home", {
 		productos
 	})
 })
